@@ -68,7 +68,7 @@ const ItemSelector = () => {
       <p>Monsters: {selectedItem.monsters}</p>
       <p>Dungeon Location: {selectedItem.dungeon}</p>
       <p>Season 1 Nightmare Dungeons: {selectedItem.nmd}</p>
-      <p>Please report bugs to me on Twitter <a href="https://www.twitter.com/@DaveWeedle">@DaveWeedle</a></p>
+      <p>Shout out to my homie Laz. You're a good friend. Please report bugs to me on Twitter <a href="https://www.twitter.com/@DaveWeedle">@DaveWeedle</a></p>
     </div>
   );
 };
