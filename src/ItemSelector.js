@@ -64,7 +64,7 @@ const ItemSelector = () => {
       </select>
 
       <h2>Selected Item:</h2>
-      <p>Name: {selectedItem.name}</p>
+      <p>Item Type: {selectedItem.name}</p>
       <p>Monsters: {selectedItem.monsters}</p>
       <p>Dungeon Location: {selectedItem.dungeon}</p>
       <p>Season 1 Nightmare Dungeons: {selectedItem.nmd}</p>
