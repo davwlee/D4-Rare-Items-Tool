@@ -1,64 +1,116 @@
-nav {
-  background-image: url(https://assets.maxroll.gg/wordpress/D4_News_Lilith_2-900x300.webp);
-  background-repeat: no-repeat;
-  background-size: 3000px;
-  background-position: center;
-  border-radius: 10px;
-  text-align: center;
-  padding: 40px;
-  font-size: larger;
-  height: 50px;
-}
-
+/* Add this CSS to your component or a separate .css file */
 body {
-  margin: 25px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  padding: 1%;
-  background-color: #AFAFAF;
-  font-size: 25px;
-  border: 1px solid black;
-  border-radius: 10px;
-  background-image: url(https://img.freepik.com/free-photo/grunge-black-concrete-textured-background_53876-124541.jpg);
-  background-size: 150%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: rgba(0, 0, 0, 0.603);
+  font-family: 'Share Tech', sans-serif;
+  font-size: 68px;
   color: white;
-  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  text-shadow: 8px 8px 10px #0000008c;
+  background-image: linear-gradient(to right, #870000, #190a05);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Center the container vertically and horizontally */
+.container {
+  display: flex-box;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+  padding: 20px;
+  color: white;
+}
+
+.itemselector {
+  align-items: center;
 }
 
 a {
-  color: yellow;
-  margin-right: 50px;
-}
-
-a:visited {
-  color: gold;
-}
-
-a:hover {
-  color: white; 
-}
-
-ul {
-  list-style-type: none;
-}
-
-#itemSelect {
-  background-color: white;
-  padding: 5px;
-  font-size: 15px;
-  border-radius: 100px;
   text-align: center;
+  padding: 0px 10px;
+  display: inline-block;
+  padding-bottom: 100px;
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(255, 255, 255);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(255, 0, 212);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(0, 255, 21);
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.navero {
+  font-size: 32px;
+  display: inline;
+  color: white
+}
+
+.headero {
+  text-align: center;
+  color: white;
+}
+
+.container-mt-5 {
+  text-align: center;
+  color: white;
+}
+
+.formgroup {
+  color: white;
+}
+
+.itemstuff {
+  font-size: 24px;
+}
+
+/* Style the select dropdown */
+#itemSelect {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 2px solid #ced4da;
+  border-radius: 50px;
+  text-align: center;
+  display: inline;
+}
+
+/* Style the selected item information */
+
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+
+/* Responsive styles */
+@media (max-width: 576px) {
+  /* Reduce font size for small screens */
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
 }
